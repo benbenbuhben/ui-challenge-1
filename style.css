@@ -1,0 +1,209 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size:2em;
+  vertical-align: middle;
+ }
+ 
+ body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:30px;
+  margin: 0 auto;
+  width: 100%;
+  font-size:2em;
+  
+ }
+
+h1 {
+
+  font-size: 2em;
+}
+
+#mobile {
+  display:none;
+}
+
+
+#wrapper0 {
+  width:980px;
+  height: 700px;
+  display: inline-block;
+}
+
+#a {
+  background-color: yellow;
+  width: 100%;
+  height: 14.2%;
+}
+
+#wrapper1 {
+  width:100%;
+  height: 85.7%;
+  float:left;
+}
+
+#wrapper2 {
+  width:79.1%;
+  height:100%;
+  float:left;
+}
+
+#wrapper3 {
+  width:100%;
+  height: 33.3%;
+}
+
+#b {
+  background-color: green;
+  width: 20.8%;
+  height: 100%;
+  float:left;
+}
+
+#c,#d{
+
+  width: 50%;
+  height: 200px;
+  float:left;
+}
+
+#c{
+  background-color: lightblue;
+}
+
+#d{
+  background-color: darkblue;
+}
+
+#wrapper4 {
+  width:100%;
+  height: 41.6%;
+ }
+
+#e, #g {
+  background-color: lightcoral;
+}
+
+#f, #h {
+  background-color: red;
+}
+
+#e,#f,#g,#h{
+  float: left;
+  width: 25%;
+  height: 250px;
+}
+
+#i{
+  display: block;
+  background-color: purple;
+  width: 100%;
+  height: 25%;
+  z-index:5;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h, #i {
+  position:relative;
+}
+
+p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+@media screen and (max-width:800px) {
+
+  #desktop {
+    display:none;
+  }
+
+  #mobile {
+    display:block;
+  }
+
+
+#wrapper0 {
+  width:480px;
+  height:1055px;
+}
+
+#a {
+  background-color: yellow;
+  width: 100%;
+  height: 7.1%;
+}
+
+#wrapper1 {
+  width:100%;
+  height: 92.8%;
+  float:none;
+}
+
+#wrapper2 {
+  width:100%;
+  height:100%;
+  float:none;
+}
+
+#wrapper3 {
+  width:100%;
+  height: 23.69%;
+}
+
+#b {
+  background-color: green;
+  width: 100%;
+  height: 14.2%;
+  float:none;
+}
+
+#c,#d{
+
+  width: 100%;
+  height: 50%;
+  float:none;
+}
+
+#c{
+  background-color: lightblue;
+}
+
+#d{
+  background-color: darkblue;
+}
+
+#wrapper4 {
+  width:100%;
+  height: 47.39%;
+ }
+
+#e, #h {
+  background-color: lightcoral;
+}
+
+#f, #g {
+  background-color: red;
+}
+
+#e,#f,#g,#h{
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+#i{
+  display: block;
+  background-color: purple;
+  width: 100%;
+  height: 7.58%;
+  z-index:5;
+}
+
+
+}
